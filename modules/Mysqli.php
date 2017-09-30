@@ -21,10 +21,10 @@ class Database{
 
 	}
 
-	public function queryDatabase($query){
+	public function query($query){
 		return $this->connection->query($query);
 	}
-	public function realEscapeString($string){
+	public function escape($string){
 		return $this->connection->real_escape_string($string);
 	}
 
