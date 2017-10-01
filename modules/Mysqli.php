@@ -28,8 +28,6 @@ class Database{
 		return $this->connection->real_escape_string($string);
 	}
 
-	function __destruct(){
-		$this->connection->close();
-	}
+	
 }
 ?>
