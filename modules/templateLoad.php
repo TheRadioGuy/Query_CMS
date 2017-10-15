@@ -8,7 +8,7 @@ if(!defined(INCLUDE)) die('ooops...');
 class templateLoad{
 
 	private $templatesCatalog = '../assets/templates/';
-	private $tmpCatalog = '../core/tmp/';
+	private $tmpCatalog = '../core/.tmp/';
 	private $downloadUrl = 'http://templates.querycms.ru/templates/';
 
 
@@ -21,7 +21,7 @@ class templateLoad{
 	}
 
 	public function install($tplName){
-		
+
 	}
 
 }
